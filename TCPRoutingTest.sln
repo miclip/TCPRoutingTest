@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPRoutingServer", "TCPRoutingServer\TCPRoutingServer.csproj", "{888977C4-ED97-4E99-A0EF-B71B60AA1AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPRoutingClient", "TCPRoutingClient\TCPRoutingClient.csproj", "{F0D703FC-3F88-4E5A-82EF-2264CB464F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888977C4-ED97-4E99-A0EF-B71B60AA1AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888977C4-ED97-4E99-A0EF-B71B60AA1AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888977C4-ED97-4E99-A0EF-B71B60AA1AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888977C4-ED97-4E99-A0EF-B71B60AA1AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D703FC-3F88-4E5A-82EF-2264CB464F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D703FC-3F88-4E5A-82EF-2264CB464F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D703FC-3F88-4E5A-82EF-2264CB464F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D703FC-3F88-4E5A-82EF-2264CB464F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
