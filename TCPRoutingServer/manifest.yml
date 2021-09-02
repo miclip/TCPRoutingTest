@@ -5,7 +5,7 @@ applications:
   - route: tcp.apps.domain.com:34000
   buildpacks:
     - binary_buildpack
-  command: ./TCPListenerServer
+  command: ./TCPRoutingServer
   path: ./publish
   health-check-type: process
   
