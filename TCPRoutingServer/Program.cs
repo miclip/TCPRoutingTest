@@ -48,8 +48,7 @@ namespace TCPRoutingServer
                         Console.WriteLine("Sent: {0}", data);
                     }
 
-                    client.Close();
-                }
+                 }
             }
             catch(SocketException e)
             {
