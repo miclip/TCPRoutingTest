@@ -13,7 +13,7 @@ namespace TCPRoutingServer
             try
             {
                 Int32 port = Int32.Parse(Environment.GetEnvironmentVariable("PORT") ?? "13000");
-                IPAddress localAddr = IPAddress.Parse("127.0.0.1");
+                IPAddress localAddr = IPAddress.Parse("0.0.0.0");
 
                 server = new TcpListener(localAddr, port);
 
